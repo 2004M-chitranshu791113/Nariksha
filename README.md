@@ -26,6 +26,15 @@ This repository contains the following builds:
 
 Download the desired APK file and install it on your Android device. Make sure installation from unknown sources is enabled.
 
+## ⚠️ License
+
+This project is © 2025 Chitranshu Mahaur. All rights reserved.
+
+Reusing, uploading, or redistributing the Nariksha app, its APKs, or its components without written permission is prohibited.
+
+📧 Contact for permission: chitranshumahaur2004@gmail.com
+
+
 ## 👩‍💻 Developed By
 
 **Chitranshu Mahaur**  
