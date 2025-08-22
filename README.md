@@ -14,74 +14,76 @@ User-Friendly UI – Simple layouts and clean navigation.
 
 ## 📂 Project Structure
 
+```text
 app
 ├── manifests
-│ └── AndroidManifest.xml
+│   └── AndroidManifest.xml
 │
 ├── java
-│ └── com.example.nariksha
-│ ├── ui
-│ │ ├── ChatbotActivity
-│ │ ├── Contact
-│ │ ├── ContactsDBHelper
-│ │ ├── MainActivity
-│ │ └── ManageContactsActivity
-│ │
-│ ├── com.example.nariksha (androidTest)
-│ └── com.example.nariksha (test)
+│   └── com.example.nariksha
+│       ├── ui
+│       │   ├── ChatbotActivity
+│       │   ├── Contact
+│       │   ├── ContactsDBHelper
+│       │   ├── MainActivity
+│       │   └── ManageContactsActivity
+│       │
+│       ├── com.example.nariksha (androidTest)
+│       └── com.example.nariksha (test)
 │
 ├── res
-│ ├── drawable
-│ │ ├── bg_pic_2.jpg
-│ │ ├── circular_button.xml
-│ │ ├── header_image.jpg
-│ │ ├── ic_dashboard_black_24dp.xml
-│ │ ├── ic_home_black_24dp.xml
-│ │ ├── ic_launcher_background.xml
-│ │ ├── ic_launcher_foreground.xml
-│ │ ├── ic_notifications_black_24dp.xml
-│ │ ├── sos_button_bg.xml
-│ │ └── text_box.xml
-│ │
-│ ├── layout
-│ │ ├── activity_chatbot.xml
-│ │ ├── activity_main.xml
-│ │ ├── activity_manage_contacts.xml
-│ │ ├── fragment_dashboard.xml
-│ │ ├── fragment_home.xml
-│ │ └── fragment_notifications.xml
-│ │
-│ ├── menu
-│ │
-│ ├── mipmap
-│ │ ├── ic_launcher
-│ │ ├── ic_launcher_foreground
-│ │ └── ic_launcher_round
-│ │
-│ ├── navigation
-│ │
-│ ├── values
-│ │ ├── colors.xml
-│ │ ├── dimens.xml
-│ │ ├── strings.xml
-│ │ ├── styles.xml
-│ │ └── themes
-│ │ ├── themes.xml
-│ │ └── themes.xml (night)
-│ │
-│ └── xml
+│   ├── drawable
+│   │   ├── bg_pic_2.jpg
+│   │   ├── circular_button.xml
+│   │   ├── header_image.jpg
+│   │   ├── ic_dashboard_black_24dp.xml
+│   │   ├── ic_home_black_24dp.xml
+│   │   ├── ic_launcher_background.xml
+│   │   ├── ic_launcher_foreground.xml
+│   │   ├── ic_notifications_black_24dp.xml
+│   │   ├── sos_button_bg.xml
+│   │   └── text_box.xml
+│   │
+│   ├── layout
+│   │   ├── activity_chatbot.xml
+│   │   ├── activity_main.xml
+│   │   ├── activity_manage_contacts.xml
+│   │   ├── fragment_dashboard.xml
+│   │   ├── fragment_home.xml
+│   │   └── fragment_notifications.xml
+│   │
+│   ├── menu
+│   │
+│   ├── mipmap
+│   │   ├── ic_launcher
+│   │   ├── ic_launcher_foreground
+│   │   └── ic_launcher_round
+│   │
+│   ├── navigation
+│   │
+│   ├── values
+│   │   ├── colors.xml
+│   │   ├── dimens.xml
+│   │   ├── strings.xml
+│   │   ├── styles.xml
+│   │   └── themes
+│   │       ├── themes.xml
+│   │       └── themes.xml (night)
+│   │
+│   └── xml
 │
 ├── res (generated)
 │
 └── Gradle Scripts
-├── build.gradle.kts (Project: Nariksha)
-├── build.gradle.kts (Module: app)
-├── proguard-rules.pro
-├── gradle.properties
-├── gradle-wrapper.properties
-├── libs.versions.toml
-├── local.properties
-└── settings.gradle.kts
+    ├── build.gradle.kts (Project: Nariksha)
+    ├── build.gradle.kts (Module: app)
+    ├── proguard-rules.pro
+    ├── gradle.properties
+    ├── gradle-wrapper.properties
+    ├── libs.versions.toml
+    ├── local.properties
+    └── settings.gradle.kts 
+
 
 🛠️ Tech Stack
 
