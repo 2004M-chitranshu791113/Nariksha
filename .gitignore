@@ -1,15 +1,14 @@
-# Ignore Android Studio files
-.idea/
+# Ignore Android build files
+/app/build/
+/build/
 *.iml
 .gradle/
 local.properties
+.idea/
+.DS_Store
 
-# Ignore build folders
-build/
-app/build/
-
-# Ignore APKs
+# Ignore all APKs by default
 *.apk
 
-# Ignore log files
-*.log
+# But allow APKs inside release-apk folder
+!/release-apk/*.apk
