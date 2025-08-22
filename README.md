@@ -73,22 +73,23 @@ Contributions are welcome! Feel free to fork this repo and submit pull requests.
 This project is licensed under the MIT License – see the LICENSE
  file for details.
 
- ## 📸 Screenshots
+## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home_page.jpg)
+<img src="screenshots/home_page.jpg" alt="Home Page" width="300"/>
 
 ### 🤖 AI Chatbot
-![AI Chatbot](screenshots/ai_chatbot.jpg)
+<img src="screenshots/ai_chatbot.jpg" alt="AI Chatbot" width="300"/>
 
 ### 📞 Emergency Contacts
-![Emergency Contacts](screenshots/emergency_contacts.jpg)
+<img src="screenshots/emergency_contacts.jpg" alt="Emergency Contacts" width="300"/>
 
 ### 🚨 SOS Message
-![SOS Message](screenshots/sos_msg.jpg)
+<img src="screenshots/sos_msg.jpg" alt="SOS Message" width="300"/>
 
 ### ❌ Delete Contact
-![Delete Contact](screenshots/delete_contact.jpg)
+<img src="screenshots/delete_contact.jpg" alt="Delete Contact" width="300"/>
 
 ### 📳 112 Dial Triggered by Shaking
-![112 Dial Triggered by Shaking](screenshots/112_dial_triggered_by_shaking.jpg)
+<img src="screenshots/112_dial_triggered_by_shaking.jpg" alt="112 Dial Triggered by Shaking" width="300"/>
+
