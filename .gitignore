@@ -7,8 +7,3 @@ local.properties
 .idea/
 .DS_Store
 
-# Ignore all APKs by default
-*.apk
-
-# But allow APKs inside release-apk folder
-!/release-apk/*.apk
