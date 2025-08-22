@@ -85,7 +85,7 @@ This project is licensed under the MIT License – see the LICENSE
 <img src="screenshots/emergency_contacts.jpg" alt="Emergency Contacts" width="300"/>
 
 ### 🚨 SOS Message
-<img src="screenshots/sos_msg.jpg" alt="SOS Message" width="300"/>
+<img src="screenshots/sos_mssg.jpg" alt="SOS Message" width="300"/>
 
 ### ❌ Delete Contact
 <img src="screenshots/delete_contact.jpg" alt="Delete Contact" width="300"/>
