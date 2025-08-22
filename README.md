@@ -87,7 +87,7 @@ app
 <img src="screenshots/emergency_contacts.jpg" width="300">  
 
 ### 🚨 SOS Message  
-<img src="screenshots/sos_msg.jpg" width="300">  
+<img src="screenshots/sos_mssg.jpg" width="300">  
 
 ### ❌ Delete Contact  
 <img src="screenshots/delete_contact.jpg" width="300">  
