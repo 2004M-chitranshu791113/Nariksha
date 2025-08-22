@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pic_2">
+
+    <!-- Your buttons, TextViews, etc. go here -->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/headerImage"
+        android:layout_width="380dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Header Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/header_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+    <Button
+        android:id="@+id/sosButton"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/circular_button"
+        android:text="SOS"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+
+    <!-- Shake info text -->
+    <TextView
+        android:id="@+id/shakeInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/text_box"
+        android:ellipsize="none"
+        android:padding="8dp"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:text="\t\t\t\t\t\t\t\tShake the phone to dial\nWOMEN SAFETY HELPLINE NUMBER 112"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sosButton" />
+
+    <Button
+        android:id="@+id/manageContactsButton"
+        android:layout_width="303dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="108dp"
+        android:text="Manage Contacts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/aiChatButton"
+        android:layout_width="304dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:text="AI Chatbot System"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/manageContactsButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
